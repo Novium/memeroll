@@ -1,0 +1,53 @@
+@font-face {
+  font-family: abolition-round;
+  src: url(abolition-round.otf);
+}
+
+body {
+  padding-top: 60px;
+}
+
+#iron-router-progress {
+  background-color: #fff;
+  box-shadow: 0 0 5px #fff;
+}
+
+.meme {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.meme-img {
+  max-width: 100%;
+  max-height: 100%;
+
+  background: url('http://upload.wikimedia.org/wikipedia/commons/4/42/Loading.gif') no-repeat;
+  min-width: 18px;
+  min-height: 18px;
+  
+  box-shadow: 0 0 10px black;
+}
+
+.meme div {
+  display: inline-block;
+}
+
+.meme-dislike {
+  float: left;
+  font-family: "abolition-round";
+  font-size: 24px;
+}
+
+.meme-dislike div {
+  font-size: 30px;
+}
+
+.meme-like {
+  float: right;
+  font-family: "abolition-round";
+  font-size: 24px;
+}
+
+.meme-like div {
+  font-size: 30px;
+}
